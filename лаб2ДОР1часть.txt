@@ -1,0 +1,350 @@
+
+  To get started, select MATLAB Help or Demos from the Help menu.
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Warning: Could not get change notification handle for remote \\VBOXSVR\student.
+This file server does not appear to support change notification.
+This server appears to support UNIX-style directory timestamp updates.
+Type 'help changeNotification' for more info.
+> In run at 28
+Введите значение вероятности ошибки в канале без кодека p=0,058
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=2
+Введите длину кодовой комбинации кода n=15
+Кодирование закончено
+Модуляция закончена
+Демодуляция закончена, осуществляется декодирование
+??? Error using ==> run
+Error using ==> not
+NaN's cannot be converted to logicals.
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=2
+Введите длину кодовой комбинации кода n=15
+Кодирование закончено
+Модуляция закончена
+Демодуляция закончена, осуществляется декодирование
+
+k =
+
+     7
+
+
+p_kan =
+
+    0.0576
+
+
+p_kod =
+
+    0.0134
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=2
+Введите длину кодовой комбинации кода n=31
+Кодирование закончено
+Модуляция закончена
+Демодуляция закончена, осуществляется декодирование
+
+k =
+
+    21
+
+
+p_kan =
+
+    0.0573
+
+
+p_kod =
+
+    0.0361
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=2
+Введите длину кодовой комбинации кода n=63
+Кодирование закончено
+??? Error using ==> run
+Attempted to access p_vec(1); index out of bounds because numel(p_vec)=0.
+
+>> 0.058
+
+ans =
+
+    0.0580
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=2
+Введите длину кодовой комбинации кода n=63
+Кодирование закончено
+Модуляция закончена
+Демодуляция закончена, осуществляется декодирование
+??? Error using ==> run
+Error using ==> gf.gf
+X must be between 0 and 2^m-1
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=2
+Введите длину кодовой комбинации кода n=63
+Кодирование закончено
+Модуляция закончена
+Демодуляция закончена, осуществляется декодирование
+??? Error using ==> run
+Error using ==> gf.gf
+M must be an integer
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=2
+Введите длину кодовой комбинации кода n=63
+Кодирование закончено
+Модуляция закончена
+Демодуляция закончена, осуществляется декодирование
+
+k =
+
+    51
+
+
+p_kan =
+
+    0.0585
+
+
+p_kod =
+
+    0.0613
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=5
+Введите длину кодовой комбинации кода n=31
+Кодирование закончено
+Модуляция закончена
+Демодуляция закончена, осуществляется декодирование
+??? Error using ==> run
+Error using ==> gf.gf
+M must be an integer
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=5
+Введите длину кодовой комбинации кода n=31
+Кодирование закончено
+Модуляция закончена
+Демодуляция закончена, осуществляется декодирование
+
+k =
+
+    11
+
+
+p_kan =
+
+    0.0577
+
+
+p_kod =
+
+    0.0024
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=5
+Введите длину кодовой комбинации кода n=63
+Кодирование закончено
+Модуляция закончена
+Демодуляция закончена, осуществляется декодирование
+
+k =
+
+    36
+
+
+p_kan =
+
+    0.0579
+
+
+p_kod =
+
+    0.0181
+
+>> run('\\VBOXSVR\student\lab_rab_1.m')
+Введите значение вероятности ошибки в канале без кодека p=0.058
+Введите значение исправляющей способности кода t=7
+Введите длину кодовой комбинации кода n=63
+Кодирование закончено
+Модуляция закончена
+Демодуляция закончена, осуществляется декодирование
+
+k =
+
+    24
+
+
+p_kan =
+
+    0.0580
+
+
+p_kod =
+
+    0.0033
+
+>> p1=gf([1,0,0,1,1]);
+>> p2=gf([1,1,1,1,1]);
+>> g=conv(p1, p2)
+ 
+g = GF(2) array. 
+ 
+Array elements = 
+ 
+      1      1      1      0      1      0      0      0      1
+
+>> temp=conv(p1*p2);
+??? Sizes of x, y don't match
+
+Error in ==> gf.mtimes at 32
+   z=gf(gf_mex(x.x,y.x,x.m,'mtimes',x.prim_poly,GF_TABLE1,GF_TABLE2),x.m,...
+
+>> temp=conv(p1*p2)
+??? Sizes of x, y don't match
+
+Error in ==> gf.mtimes at 32
+   z=gf(gf_mex(x.x,y.x,x.m,'mtimes',x.prim_poly,GF_TABLE1,GF_TABLE2),x.m,...
+
+>> temp=g
+ 
+temp = GF(2) array. 
+ 
+Array elements = 
+ 
+      1      1      1      0      1      0      0      0      1
+
+>> temp=conv(p1*p2)
+??? Sizes of x, y don't match
+
+Error in ==> gf.mtimes at 32
+   z=gf(gf_mex(x.x,y.x,x.m,'mtimes',x.prim_poly,GF_TABLE1,GF_TABLE2),x.m,...
+
+>> temp=conv(p1*p2);
+??? Sizes of x, y don't match
+
+Error in ==> gf.mtimes at 32
+   z=gf(gf_mex(x.x,y.x,x.m,'mtimes',x.prim_poly,GF_TABLE1,GF_TABLE2),x.m,...
+
+>> temp=conv(p1*p2);
+??? Sizes of x, y don't match
+
+Error in ==> gf.mtimes at 32
+   z=gf(gf_mex(x.x,y.x,x.m,'mtimes',x.prim_poly,GF_TABLE1,GF_TABLE2),x.m,...
+
+>> temp=conv(p1*p2)
+??? Sizes of x, y don't match
+
+Error in ==> gf.mtimes at 32
+   z=gf(gf_mex(x.x,y.x,x.m,'mtimes',x.prim_poly,GF_TABLE1,GF_TABLE2),x.m,...
+
+>> p1
+ 
+p1 = GF(2) array. 
+ 
+Array elements = 
+ 
+      1      0      0      1      1
+
+>> p2
+ 
+p2 = GF(2) array. 
+ 
+Array elements = 
+ 
+      1      1      1      1      1
+
+>> g
+ 
+g = GF(2) array. 
+ 
+Array elements = 
+ 
+      1      1      1      0      1      0      0      0      1
+
+>> temp=conv(p1,p2)
+ 
+temp = GF(2) array. 
+ 
+Array elements = 
+ 
+      1      1      1      0      1      0      0      0      1
+
+>> temp=conv(p1,p2);
+>> axr=gf([0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
+ 
+axr = GF(2) array. 
+ 
+Array elements = 
+ 
+  Columns 1 through 8 
+
+      0      1      1      0      1      0      1      0
+
+  Columns 9 through 16 
+
+      0      0      1      1      1      0      1      0
+
+  Columns 17 through 24 
+
+      0      0      0      0      0      0      0      0
+
+  Columns 25 through 31 
+
+      0      0      0      0      0      0      0
+
+>> [ch, rx]=deconv(axr, g)
+ 
+ch = GF(2) array. 
+ 
+Array elements = 
+ 
+  Columns 1 through 16 
+
+      0      1      0      1      0      0      1      0      1      0      1      1      0      1      0      0
+
+  Columns 17 through 23 
+
+      1      0      0      1      0      0      0
+
+ 
+rx = GF(2) array. 
+ 
+Array elements = 
+ 
+  Columns 1 through 16 
+
+      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+
+  Columns 17 through 31 
+
+      0      0      0      0      0      0      0      1      1      0      0      1      0      0      0
+
+>> v=axr+rx
+ 
+v = GF(2) array. 
+ 
+Array elements = 
+ 
+  Columns 1 through 16 
+
+      0      1      1      0      1      0      1      0      0      0      1      1      1      0      1      0
+
+  Columns 17 through 31 
+
+      0      0      0      0      0      0      0      1      1      0      0      1      0      0      0
+
+>> 
